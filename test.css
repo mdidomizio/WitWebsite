@@ -1,0 +1,21 @@
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-items: space-around;
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+}
+.navList{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navList li{
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-items: space-around;
+}

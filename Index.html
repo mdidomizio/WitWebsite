@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3b14ec5cd6.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Miriam_WIT Website</title>
+</head>
+<body>
+    <div class="logInSection">
+        <div class="loginForm" id="logIn">
+            <h2>Log In</h2>
+            <input placeholder= "Email">
+            <input placeholder="Password">
+            <a href="xxxxx"><li class="login">Log in</li></a>
+            <img src="logobig.png" class="logo">
+        </div>
+    </div>
+    <button href class="buttonUp" id="buttonUp">
+        <a href="#" id="upArrow"><i class="fa-solid fa-angles-up" upArrow></i></a>
+    </button>
+    <img src="Vector1.svg" class="firstVector">
+    <img src="Vector2.svg" class="secondVector">
+    <nav class="navigation">
+        <div class="menuLogo">
+            <img src="logobig.png" class="logo">
+            <a href="#" id="hamburger"><i class="fa-solid fa-bars" hamburger></i></a>
+        </div>
+        <ul class="navList">
+            <a href="Index.html"><li class="navItem">Home</li></a>
+            <!--<a href="AboutUs.html" target="_blank"><li>About us</li></a>-->
+            <a href="#AboutUs"><li class="navItem">About Us</li></a>
+            <a href="#contact"><li class="navItem">Contact</li></a>
+            <a href="#periodTracker"><li class="navItem">Period Tracker</li></a>
+            <a href="#"><li class="navItem">Sign up</li></a>
+            <a href="#" id="darkButton" class="darkMode"><li class="navItem"><i class="fa-solid fa-moon"></li></i></a>
+        </ul>
+    </nav>
+    <section class="mainSection">
+        <div class="leftContainer">
+            <h1>Cut down on surprises with our <span class="colored">period tracker</h1>
+            <p>Use this app to help plan ahead for special occasions, vacations, or even ovulation if you’re trying to conceive.</p>
+            <div class="buttonMainContainer"> 
+                <button class="buttonStarter">Get started</button>
+                <a href="#periodTracker"><button class="buttonTracker">Period Tracker</button></a>
+            </div>
+        </div>
+        <img src="HomePicture.svg"class="image">
+    </section>
+
+    <section class="trackerMainSection" id="periodTracker">
+        <div class="periodTrackingTitle">
+            <img src="Calendar_Monochromatic.svg"class="trackerPic">
+            <h1>Period Tracker</h1>
+        </div> 
+        <div class="trackerContainer">
+            <div class="date">
+                <h2>1. When did your last period <br> start?</h2>
+                    <div class="dateButton">
+                        <button class="todayDate">Sunday May 8</button> 
+                        <button class="calendar"><i class="fa-solid fa-calendar-days"></i></button><!--ask dragan how to implement the calendar-->
+                    </div>
+            </div>
+            <div class="periodLength">
+                <h2>2. How many days did it last?<br></h2>
+                <div class="periodCounter">
+                    <button class="counter"><i class="fa-solid fa-minus"></i></button>
+                    <h1>5</h1>
+                    <button class="counter"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                
+            </div>
+            <div class="menstrualCycle">
+                <h2>3. How long is your menstrual cycle?</h2>
+                <div class="periodCounter">
+                    <button class="counter"><i class="fa-solid fa-minus"></i></button>
+                    <h1>28</h1>
+                    <button class="counter"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <button class="startTracking">Track your period</button>
+    </section>
+
+    <section class="mainSectionAboutUs" id="AboutUs">
+        <!--<img src="Vector1.svg" class="firstVectorOne">
+        <img src="Vector2.svg" class="secondVectorOne">-->
+        
+        <div class="leftContainerAboutUsTitle">
+            <h1>Helping <span class="colored">girls</span> and <span class="colored">women</span> to prioritise their health</h1>
+            <h4>By giving access to expert information, knowledge, and support, we encourage our users to better understand how physiology affects their wellbeing.
+                <br>We stand for...</h4>
+        </div>
+        <div class="leftContainerAboutUsP1">
+            <img src="EatingWoman.svg"class="imageAboutUs1"> 
+            <p class="aboutUsP1"><span class="colored">Enabling you to take control of your health</span><br>
+                We support women and everyone who menstruates throughout their entire reproductive lives, with personalised cycle predictions, virtual health assistants, insights on general health, fertility and pregnancy. </p>
+        </div>
+        <div class="leftContainerAboutUsP2">
+            <p class="aboutUsP2"><span class="colored">Providing expert health information to all</span><br>
+                Expert, evidence-based health information should be unconditional and available to everyone. We work with a large team of medical doctors and female health organisations to provide health content you can trust.</p>
+            <img src="readingPic.svg" class="imageAboutUs2">
+        </div>    
+        <div class="leftContainerAboutUsP3">   
+            <img src="Surfing.svg" class="imageAboutUs3">
+            <p class="aboutUsP3"><span class="colored">Empowering open discussion</span><br>
+                Many reproductive health topics are still taboo, and some questions may go unanswered. Through the power of community, we enable open discussions, end stigmas, and help you to get support from like-minded others.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class= "contactContainer">
+            <form class="contactForm">
+                <h2>Contact Us</h2>
+                <input placeholder="Full Name" class="contactInput">
+                <input placeholder="Phone" class="contactInput">
+                <input placeholder="Email" class="contactInput">
+                <textarea class="textarea">What can we do for you?</textarea>  
+                <button class="SubmitButton">Submit</button>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9707.044620549617!2d13.410624471997075!3d52.53775545040643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851f0d75ca669%3A0xc75b9a43b40f3cb2!2sU%20Bernauer%20Stra%C3%9Fe!5e0!3m2!1sen!2sde!4v1651562470544!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footerUpper">
+            <img src="logobig.png" class="logoFooter"></img>
+            <div class="footerNavigation1">
+                <h2>WOM</h2>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>WOM Access</li>
+            </div>
+            <div class="footerNavigation2">
+                <h2>Content</h2>
+                <li>Health Library</li>
+                <li>Your Body Your Story</li>
+                <li>Careers</li>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <input placeholder= "Email" class="emailField">
+                <button class="subNewsletter">Subscribe Now</button>
+            </div>
+        </div>
+        <div class="footerDown">
+            <!--<i class="fa-brands fa-google-play"></i><-->
+            <img src="GooglePlay.png" class="google"></img>
+            <div class="SoMe">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <img src="AppleStore.png" class="apple"></img>
+        </div>
+    </footer>
+    <script src="indexJava.js"></script>
+</body>
+</html>
+
