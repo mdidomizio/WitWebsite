@@ -300,15 +300,6 @@ a:link{
     background-color: white;
 }
 
-.mainSectionAboutUs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-    height: 92vh;
-}
-
 .startTracking{
     height: 50px;
     width: 300px;
@@ -323,55 +314,84 @@ a:link{
     cursor: pointer;
 }
 
+.mainSectionAboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 92vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .leftContainerAboutUsTitle{
-    width: 50vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color:#093F68;
+    height: auto;
     
 }
 
+.leftContainerAboutUsTitle h1{
+    font-size: 50px;
+}
+.leftContainerAboutUsTitle h4{
+    font-size: 25px;
+}
+
 .imageAboutUs1{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .leftContainerAboutUsP1{
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 80vh;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .leftContainerAboutUsP2{
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 80vh;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
+
+
 .imageAboutUs2{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .leftContainerAboutUsP3{
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
-    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 80vh;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 
 .imageAboutUs3{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .leftContainerAboutUs h1{
@@ -553,13 +573,12 @@ iframe{
     color: #093F68;
     margin-top: 10px;
 }
-
-
 .footerNavigation2{ 
     display: flex;
     flex-direction: column;
     width: 20vw;
     margin-right: 10px;
+    list-style: none;
     color: #093F68;
     margin-top: 10px;
 }
@@ -572,7 +591,6 @@ iframe{
     color:#093F68;
     border-radius: 20px;
     padding: 5px;
-
 }
 
 .footerNavigation2 li{
@@ -580,11 +598,11 @@ iframe{
     font-size: 18px;
     font-family: 'Sofia Pro', sans-serif;
     font-weight: 500;
-    color: #093F68;
+    color:#093F68;
     border-radius: 20px;
     padding: 5px;
-
 }
+
 .footerNavigation1 h2{
     color: #093F68;
 }
@@ -890,66 +908,111 @@ dark-mode p{
         font-size: 15px;
         font-weight: 100;
     }
-   
-
-
     .mainSectionAboutUs{
         height: auto;
         flex-wrap: wrap;
+        width: 90vw;
     }
-    .imageAboutUs{
-        display: none;
-    }
-    .leftContainerAboutUs{
+    
+    .leftContainerAboutUsTitle{
         height: auto;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
         margin: 0;
-        width: 90vw;
+    }
+    .imageAboutUs1{
+        display: none;
+    }
+    .leftContainerAboutUsP1{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .imageAboutUs2{
+        display: none;
+    }
+
+    .leftContainerAboutUsP2{
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    }
+
+
+    .imageAboutUs3{
+        display: none;
+    }
+
+    .leftContainerAboutUsP3{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
     }
 
     .contact{
         height: auto;
         flex-wrap: wrap;
-        margin: 10px;
+        margin: 15px;
     }
-
     .contactContainer{
+        border: none;
+        align-items: center;
         height: auto;
         flex-wrap: wrap;
-        justify-content: center;
-        margin: 0;
+        align-content: center;
+        width: 90vw;
     }
+
     .contactForm{
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0;
+        gap:25px;
+        margin-bottom: 20px;
+        width: 80vw;
+        display: flex;
+        border-radius: 20px;
+        border:#FC6868 solid;
     }
-
-
-    .iframe{
+    .SubmitButton{
+        margin-top: 15px;
+        margin-top: 15px;
+    }
+    iframe{
+        display: none;
+    }
+    .footerDown{
         display: none;
     }
 
     .footer{
         height: auto;
-        flex-wrap: wrap;
-        justify-content: center; 
-        margin: 0;
-        width: 100vw;
+        
     }
 
     .footerUpper{
         height: auto;
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        width: 100vw;
     }
+    .logoFooter{
+        display: none;
+
+    }
+
     .footerNavigation{
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
+        justify-items: center;
     }
     .footerNavigation1{
         height: auto;
