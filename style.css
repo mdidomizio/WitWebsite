@@ -320,13 +320,13 @@ a:link{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 92vh;
+    height: 110vh;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .leftContainerAboutUsTitle{
-    width: 80vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,13 +341,27 @@ a:link{
     font-size: 50px;
 }
 .leftContainerAboutUsTitle h4{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .imageAboutUs1{
     width: 250px;
     height: 250px;
 }
+.textAboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textAboutUs h3{
+    color: #FC6868;
+}
+.textAboutUs p{
+    color: #093F68;
+    font-weight: 400;
+}
+
 
 .leftContainerAboutUsP1{
     display: flex;
@@ -394,12 +408,7 @@ a:link{
     height: 250px;
 }
 
-.leftContainerAboutUs h1{
-    color: #093F68;
-    font-size: 50px;
-    font-family: 'Sofia Pro', sans-serif;
-    text-align: center;
-}
+
 
 .leftContainerAboutUs h4{
     color: #093F68;
@@ -510,7 +519,6 @@ a:link{
     font-size: 14px;
     color: #093F68;
     font-style: inherit;
-    
 }
 
 .textarea{
@@ -741,26 +749,62 @@ dark-mode p{
     height: 50vh;
     width: 50vw;
     position:absolute;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
-   
+    align-content: center;
+}
+.logoLogIn{
+    width: 30px;
+    height: 30px;
+}
+.logInTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
 }
 
 
 .loginForm{
     color:#093F68;
-    background-color: aqua;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 550px;
-    height: 450px;
+    height: 650px;
     border-radius: 20px;
     gap: 20px;
- 
+    background-color:rgba(9,63,104,0.1);
+    border:#FC6868 solid;
+
+}
+.contactInputLogIn{
+    text-indent: 10px;
+    color: #093F68;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border:#093F68; 
+}
+.contactInputLogIn::placeholder{
+    font-size: 14px;
+    color: #093F68;
+    font-style: inherit;
+}
+.SubmitButtonLogIn{
+    width: 300px;
+    height: 35px;
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FC6868;
+    color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -991,8 +1035,11 @@ dark-mode p{
         display: none;
     }
     .footerDown{
-        display: none;
-    }
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+     }
 
     .footer{
         height: auto;
