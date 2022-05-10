@@ -15,6 +15,19 @@ function menuFun(){
 }
 upButton.addEventListener("click", menuFun)
 
+//function showModal(){
+//modal.style.display = flex;//
+//}//
+
+var modalButton = document.getElementById("buttonStarter")
+
+function modalTrigger(){
+    var htmlBody2 = document.body;
+    htmlBody2.classList.toggle("visibility")
+}
+modalButton.addEventListener("click", modalTrigger)
+
+
 var button = document.getElementById("buttonUp")
 
 function toTop(){

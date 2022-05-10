@@ -743,13 +743,13 @@ dark-mode p{
     font-weight: 600;
 }
 
-.logInSection{
-    left: 50%;
-    right: 50%;
-    height: 50vh;
-    width: 50vw;
+.modal{
+    top: calc(50% - 200px); /* If we just pushed the container from the right side, then we would have problem since it is pushing it from its right border and not the ceneter, that's why we kind of take the half of the container and subtract it from the 50% to put it in the middle */
+    right: calc(50% - 200px);
+    height: 400px;
+    width: 400px;
     position:absolute;
-    display: flex;
+    display: hidden;
     flex-direction: column;
     align-items: center;
     align-content: center;
@@ -1075,6 +1075,12 @@ dark-mode p{
         height: auto;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .apple{
+        display: none;
+    }
+    .google{
+        display: none;
     }
 
 
