@@ -33,7 +33,7 @@
             <h1>Cut down on surprises with our <span class="colored">period tracker</h1>
             <p>Use this app to help plan ahead for special occasions, vacations, or even ovulation if you’re trying to conceive.</p>
             <div class="buttonMainContainer"> 
-                <a href="#modal"><button class="buttonStarter">Get started</button></a>
+                <a href="#" id="buttonStarter"><button class="buttonStarter">Get started</button></a>
                 <a href="#periodTracker"><button class="buttonTracker">Period Tracker</button></a>
             </div>
         </div>
@@ -153,8 +153,11 @@
         </div>
     </footer>
 
-    <div class="Modal">
+    <div class="modal" id="modal">
         <div class="loginForm" id="logIn">
+            <div  class="header">
+                <a href="#" id="closeButton"><i class="fa-solid fa-circle-xmark closeButton"></i></a>
+            </div>
             <div class="logInTitle">
                 <img src="flower.png" class="logoLogIn">
                 <h2>Log In</h2>

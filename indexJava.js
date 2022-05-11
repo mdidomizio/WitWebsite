@@ -7,6 +7,7 @@ function darkMode(){
 darkButton.addEventListener("click", darkMode)
 
 
+
 var upButton = document.getElementById("hamburger")
 
 function menuFun(){
@@ -15,17 +16,17 @@ function menuFun(){
 }
 upButton.addEventListener("click", menuFun)
 
-//function showModal(){
-//modal.style.display = flex;//
-//}//
+
 
 var modalButton = document.getElementById("buttonStarter")
+var modalButton1 = document.getElementById("closeButton")
 
-function modalTrigger(){
+function showModal(){
     var htmlBody2 = document.body;
     htmlBody2.classList.toggle("visibility")
 }
-modalButton.addEventListener("click", modalTrigger)
+modalButton.addEventListener("click", showModal)
+modalButton1.addEventListener("click", showModal)
 
 
 var button = document.getElementById("buttonUp")
