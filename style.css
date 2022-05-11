@@ -268,11 +268,14 @@ a:link{
     height: 35px;
     border:none;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     background-color: #FC6868;
     color: white;
     cursor: pointer;
+}
+.trackerContainer h3{
+    font-size: 25px;
 }
 
 .periodCounter{
@@ -546,14 +549,12 @@ a:link{
 }
 
 iframe{
-    /*width: 550px;*/
     height: 600px;
     border-radius: 0 20px 20px 0;
 }
 .footer{
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     width: 100vw;
     height:35vh;
     background-color: rgba(28,110,164,0.2);
@@ -713,17 +714,35 @@ li{
     background-color:#14163b;
 }
 
+.dark-mode h1{
+    color: #CCEEFF;
+}
+
+.dark-mode h2{
+    color: #CCEEFF;
+}
+
+.dark-mode h4{
+    color: #CCEEFF;
+}
+
+.dark-mode p{
+    color: #CCEEFF;
+}
+
+
 .dark-mode li{
-    color: bisque;
+    color: #CCEEFF;
 }
  
-dark-mode h1{
-    color: bisque;
+.dark-mode i{
+    color: #CCEEFF;
 }
- 
-dark-mode p{
-    color: bisque;
+
+.dark-mode trackerText{
+    color:#093F68;
 }
+
 .hamburger{
     display: none;
 }
@@ -744,7 +763,7 @@ dark-mode p{
 }
 
 .modal{
-    top: calc(50% - 200px); /* If we just pushed the container from the right side, then we would have problem since it is pushing it from its right border and not the ceneter, that's why we kind of take the half of the container and subtract it from the 50% to put it in the middle */
+    top: calc(50% - 200px); /* If we just pushed the container from the right side, then we would have problem since it is pushing it from its right border and not the center, that's why we kind of take the half of the container and subtract it from the 50% to put it in the middle */
     right: calc(50% - 200px);
     height: 400px;
     width: 400px;
@@ -765,7 +784,6 @@ dark-mode p{
     justify-content: center;
     gap: 10px
 }
-
 
 .loginForm{
     color:#093F68;
@@ -811,20 +829,25 @@ dark-mode p{
     html, body{
         overflow-x: hidden;
     }
+
     body{
         position: relative;
     }
+
     .hamburger{
-        font-size: 50px;
-        color:#FC6868;
+        /*width: 50px;
+        height: auto;
+        color:#FC6868;*/
         display: flex;
     }
 
     .menuLogo{
         display: flex;
+        width: 100vw;
         flex-direction: row;
-        justify-content: space-around;
-        justify-items: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
     }
     .visibility .navList{
         display: flex;
@@ -841,14 +864,14 @@ dark-mode p{
         height: auto;
         flex-wrap: wrap;
         margin-right: 0;
-        border-top:1px solid #093F68;
-        display: none;
+        border-top:1px solid #FC6868;
         justify-content: center;
         align-items: center;
         margin-left:-20px;
         gap: 20px
     }
-    .navList li{padding: 0;
+    .navList li{
+        padding: 0;
     }
 
 
