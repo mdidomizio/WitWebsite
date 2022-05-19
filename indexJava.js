@@ -23,7 +23,7 @@ var modalButton1 = document.getElementById("closeButton")
 
 function showModal(){
     var htmlBody2 = document.body;
-    htmlBody2.classList.toggle("visibility")
+    htmlBody2.classList.toggle("visibilityModal")
 }
 modalButton.addEventListener("click", showModal)
 modalButton1.addEventListener("click", showModal)
