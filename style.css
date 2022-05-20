@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
 }
 
+/*NAVIGATION WEBSITE*/
 .navigation{
     display: flex;
     align-items: center;
@@ -54,6 +55,7 @@ a:link{
     text-decoration: none;
     color:inherit;
 }
+/*HOME PAGE*/
 .mainSection{
     display: flex;
     flex-direction: row;
@@ -133,6 +135,7 @@ a:link{
 }
 
 
+/*TRACKER SECTION*/
 .trackerMainSection{
     display: flex;
     flex-direction: column;
@@ -291,6 +294,7 @@ a:link{
     cursor: pointer;
 }
 
+/*SABOUT US SECTION*/
 .mainSectionAboutUs{
     display: flex;
     flex-direction: column;
@@ -436,6 +440,7 @@ a:link{
     height:500px;
 }
 
+/*CONTACT SECTION*/
 .contact{
     display: flex;
     flex-direction: column;
@@ -519,6 +524,7 @@ iframe{
     height: 600px;
     border-radius: 0 20px 20px 0;
 }
+/*FOOTER SECTION*/
 .footer{
     display: flex;
     flex-direction: column;
@@ -677,6 +683,7 @@ li{
     margin-top: 10px;
 }
 
+/*DARK MODE*/
 .dark-mode{
     background-color:#14163b;
 }
@@ -709,7 +716,7 @@ li{
 .dark-mode trackerText{
     color:#093F68;
 }
-
+/*BUTTON"GO TO THE TOP"*/
 .hamburger{
     display: none;
 }
@@ -728,7 +735,7 @@ li{
     font-size: 20px;
     font-weight: 600;
 }
-
+/*MODAL*/
 .modal{
     top: calc(50% - 200px); 
     right: calc(50% - 200px);
@@ -815,7 +822,7 @@ li{
     color: white;
     cursor: pointer;
 }
-
+/*MOBILE VERSION*/
 @media only screen and (max-width: 600px) {
     html, body{
         overflow-x: hidden;
@@ -824,6 +831,7 @@ li{
     body{
         position: relative;
     }
+    /*MOBILE VERSION: MENU/NAVIGATION*/
 
     .hamburger{
         display: flex;
@@ -842,6 +850,7 @@ li{
     .visibility .navList{
         display: flex;
     }
+    /*MOBILE VERSION: MODAL*/
     .modal{
         top: calc(10% - 200px); 
         right: calc(50% - 200px);
@@ -858,7 +867,7 @@ li{
         display: flex;
     }
 
-
+    /*MOBILE VERSION: NAVIGATION*/
     .navigation{
         height: auto;
         flex-wrap: wrap;
@@ -901,6 +910,7 @@ li{
     .secondVector{
         display: none;
     }
+    /*MOBILE VERSION: HOME PAGE*/
 
     .mainSection{
         height: auto;
@@ -920,6 +930,7 @@ li{
         align-items: center;
         width: 85vw;
     }
+    /*MOBILE VERSION: TRACKER*/
 
     .trackerMainSection{
         height: auto;
@@ -985,6 +996,7 @@ li{
         font-size: 15px;
         font-weight: 100;
     }
+    /*MOBILE VERSION: ABOUT US*/
     .mainSectionAboutUs{
         height: auto;
         flex-wrap: wrap;
@@ -1036,6 +1048,7 @@ li{
         align-items: center;
         width: 75vw;
     }
+    /*MOBILE VERSION: CONTACT SECTION*/
 
     .contact{
         height: auto;
@@ -1073,6 +1086,7 @@ li{
     iframe{
         display: none;
     }
+    /*MOBILE VERSION: FOOTER*/
     .footerDown{
         height: auto;
         flex-wrap: wrap;
@@ -1124,8 +1138,5 @@ li{
     }
 
 
-    /*.leftContainer{
-        margin-left: 5vw;
-    }*/
         
 }
